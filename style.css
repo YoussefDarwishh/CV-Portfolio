@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    list-style: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap');
@@ -179,6 +178,10 @@ img.rounded-circle {
     color: #ffbd36;
 }
 
+.aboutinfo {
+    list-style: none;
+}
+
 @media only screen and (max-width:991px) {
     .single-project {
         flex-basis: 100%;
@@ -194,7 +197,19 @@ img.rounded-circle {
 }
 
 @media only screen and (max-width: 768px) {
-    #email {
-        font-size: 12px;
+    .icon {
+        width: 4.875rem;
+        height: 4.25rem;
+    }
+
+    .aboutinfo {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #university {
+        width: 12rem;
+        height: 16rem;
     }
 }
